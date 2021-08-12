@@ -1,0 +1,65 @@
+
+/*==============row and col=====================*/
+ .row::after,
+ .row::before{
+clear: both;
+content: "";
+display: table;
+} 
+
+/* .col{
+    float: left;
+    display: block;
+    padding: 5px 0;
+    height: auto;
+    /* border:1px solid black;} */
+   
+ @media only screen and (max-width:1000px) and (min-width:600px ){
+.col-m-1{
+    width:8.33%;  
+}
+.col-m-2{
+    width:16.66%;  
+}
+.col-m-3{
+    width:24.99%;  
+}
+.col-m-4{
+    width:33.32%;  
+}
+.col-m-5{
+    width:41.65%;  
+}
+.col-m-6{
+    width:49.98%;  
+}
+.col-m-7{
+    width:58.31%;  
+}
+.col-m-8{
+    width:66.64%;  
+}
+.col-m-9{
+    width:74.97%;  
+}
+.col-m-10{
+    width:83.30%;  
+}
+.col-m-11{
+    width:91.63%;  
+}
+.col-m-12{
+    width:100%;  
+}
+ }
+/*------------------------------------------------------------*/
+
+/* @media only screen and (max-width:1000px){
+    [class*='col-m-']{
+        width:49%;
+    }
+    .col{
+        float: none;
+
+    }
+} */
